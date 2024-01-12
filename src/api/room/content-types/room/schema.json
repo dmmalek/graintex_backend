@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rooms",
+  "info": {
+    "singularName": "room",
+    "pluralName": "rooms",
+    "displayName": "Room",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "integer"
+    },
+    "Bedroom": {
+      "type": "integer"
+    },
+    "Bathroom": {
+      "type": "integer"
+    },
+    "Furnished": {
+      "type": "string"
+    },
+    "Area": {
+      "type": "integer"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Contact": {
+      "type": "string"
+    },
+    "RentalPeriod": {
+      "type": "integer"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Code": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    }
+  }
+}
